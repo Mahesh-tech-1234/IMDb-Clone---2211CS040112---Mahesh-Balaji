@@ -1,3 +1,33 @@
+##How It Works
+
+Home Page (Movie Search & Display)
+----------------------------------
+By default, it shows Marvel movies when you open the app.
+Users can search for movies using the search bar.
+Movies are displayed in a grid, each with a title, year, poster, and two buttons:
+View Details → Opens a detailed movie page.
+Favorite → Adds the movie to the favorites list.
+
+Favorites Page
+--------------
+Displays all movies the user has marked as Favorite.
+Users can remove movies from favorites.
+Uses local storage to keep favorites saved even after page refresh.
+
+Movie Details Page
+------------------
+Shows full details of a movie when clicked.
+Allows adding or removing from favorites.
+If an error occurs (like movie not found), it displays a message.
+
+Key Features
+------------
+Uses React Router (react-router-dom) for navigation.
+Uses Bootstrap for styling.
+Fetches movie data from OMDB API.
+Saves favorites in local storage so they persist.
+Displays loading spinners and error messages.
+
 ## React
 
 This is a simple React application. This application serves as a basic template for a react applications.  
